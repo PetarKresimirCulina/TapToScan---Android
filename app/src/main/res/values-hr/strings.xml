@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TapToScan</string>
+    <string name="action_about">O Aplikaciji</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="scan_the_ntaptoscan_sticker">Skenirajte TapToScan naljepnicu</string>
+    <string name="add_to_cart">Dodaj u košaricu</string>
+    <string name="name">Naziv</string>
+    <string name="price">Cijena</string>
+    <string name="add">Dodaj</string>
+    <string name="cancel">Odustani</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="_0">(0)</string>
+    <string name="delete">Izbriši</string>
+    <string name="textview">TextView</string>
+    <string name="place_order">Pošalji narudžbu</string>
+    <string name="item_title">Item title</string>
+    <string name="order_placed">Narudžba zaprimljena</string>
+    <string name="order_placed_msg">Vaša narudžba je zaprimnjena i biti će procesirana uskoro. Hvala Vam na narudžbi.</string>
+    <string name="order_failed">Narudžba nije poslana</string>
+    <string name="order_failed_msg">Dogodila se pogreška prilikom procesiranja Vaše narudžbe. Molimo pokušajte ponovno.</string>
+    <string name="place_order_msg">Jeste li sigurni da želite poslati ovu narudžbu? Ova akcija se ne može poništiti.</string>
+    <string name="items_x_sign">x</string>
+    <string name="version">Verzija: %1$s</string>
+    <string name="not_available">n/a</string>
+    <string name="copyright">Copyright © 2016-%1$d TapToScan.com. Sva prava pridržana.</string>
+    <string name="invalid_ammount">Molimo unesite odgovarajuću količinu (1-10)</string>
+    <string name="nfc_no_support">Vaš mobilni uređaj ne podržava NFC tehnologiju te nije podržan.</string>
+    <string name="activate_nfc">Molimo aktivirajte NFC te pritisnite tipku za nazad kako bi se vratili u aplikaciju.</string>
+    <string name="nfc_not_active_title">NFC nije uključen</string>
+    <string name="nfc_open_settings">Želite li otvoriti Postavke kako bi uključili NFC?</string>
+    <string name="tag_not_assigned">Ova naljepnica nije registrirana na korisnika.</string>
+    <string name="added_to_cart">Narudžba dodana u košaricu</string>
+    <string name="added_to_cart_msg">Vaša narudžba je dodana u košaricu.</string>
+    <string name="skip">Preskoči</string>
+    <string name="next">Sljedeće</string>
+    <string name="gotit">Razumijem</string>
+    <string name="welcome_screen_1_title">Naručite sa mobitelom</string>
+    <string name="welcome_screen_1_message">Koristite svoj mobilni uređaj kako bi naručili piće u svojem omiljenom kafiću</string>
+    <string name="welcome_screen_2_title">Skenirajte NFC naljepnicu</string>
+    <string name="welcome_screen_2_message">Samo otvorite aplikaciju i dotaknite TapToScan naljepnicu na stolu</string>
+    <string name="welcome_screen_3_title">Dodajte proizvode u košaricu</string>
+    <string name="welcome_screen_3_message">Vaša se košarica nalazi u gornjem desnom kutu aplikacije</string>
+    <string name="welcome_screen_4_title">Pošaljite narudžbu</string>
+    <string name="welcome_screen_4_message">Pričekajte da Vam se narudžba servira i uživajte :)</string>
+    <string name="do_not_show_again">Ne prikazuj više</string>
+
+</resources>

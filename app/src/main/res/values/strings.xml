@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TapToScan</string>
+    <string name="action_about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="scan_the_ntaptoscan_sticker">Scan the TapToScan sticker</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="_0">(0)</string>
+    <string name="delete">Delete</string>
+    <string name="textview">TextView</string>
+    <string name="place_order">Place order</string>
+    <string name="item_title">Item title</string>
+    <string name="order_placed">Order placed</string>
+    <string name="order_placed_msg">You order has been received and will be processed soon. Thank you for your order.</string>
+    <string name="order_failed">Order not sent</string>
+    <string name="order_failed_msg">There was an error processing your order. Please try again.</string>
+    <string name="place_order_msg">Are you sure you with to send out this order? This action can\'t be undone.</string>
+    <string name="items_x_sign">x</string>
+    <string name="version">Version: %1$s</string>
+    <string name="not_available">n/a</string>
+    <string name="copyright">Copyright © 2016-%1$d TapToScan.com. All rights reserved.</string>
+    <string name="invalid_ammount">Please type in a valid quantity ammount (1-10)</string>
+    <string name="nfc_no_support">Your device doesn\'t have NFC support built-in and therefor is not supported.</string>
+    <string name="activate_nfc">Please activate NFC and press Back to return to the application!</string>
+    <string name="nfc_not_active_title">NFC is turned off</string>
+    <string name="nfc_open_settings">Do you want to open the Settings app to turn on the NFC?</string>
+    <string name="tag_not_assigned">This tag is not assigned to anyone.</string>
+    <string name="added_to_cart">Order added to cart</string>
+    <string name="added_to_cart_msg">Yor order has been added to cart.</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="gotit">Got it</string>
+    <string name="welcome_screen_1_title">Order with your phone</string>
+    <string name="welcome_screen_1_message">Use your phone to quickly order drinks in your favourite bar or pub</string>
+    <string name="welcome_screen_2_title">Scan the NFC sticker</string>
+    <string name="welcome_screen_2_message">Simply open the app and touch the TapToScan NFC sticker with your phone</string>
+    <string name="welcome_screen_3_title">Simply add items to your cart</string>
+    <string name="welcome_screen_3_message">Your cart can be accessed by clicking on the cart icon in the top right corner</string>
+    <string name="welcome_screen_4_title">Send your order</string>
+    <string name="welcome_screen_4_message">Wait until your order is served and enjoy :)</string>
+    <string name="do_not_show_again">Do not show again</string>
+</resources>
