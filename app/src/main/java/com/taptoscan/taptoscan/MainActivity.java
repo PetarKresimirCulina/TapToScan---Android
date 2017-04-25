@@ -422,15 +422,12 @@ public class MainActivity extends AppCompatActivity {
                             String nfcSerial = tag.getString("nfc_tag_serial");
                             tagActive = tag.getInt("active");
 
-                            if(tagActive == 0) {
-                                Toast.makeText(MainActivity.this, "This TapToScan tag is not active.", Toast.LENGTH_LONG).show();
-                                ma.finish();
-                                return;
-                            }
                             tagDeleted = tag.getInt("deleted");
 
                             // Handle in case the tag is inactive or deleted
                             if (tagActive == 0 || tagDeleted == 1) {
+                                Toast.makeText(MainActivity.this, R.string.tagNotActive, Toast.LENGTH_LONG).show();
+                                ma.finish();
                                 return;
                             }
 
@@ -441,6 +438,15 @@ public class MainActivity extends AppCompatActivity {
                             String city = userData.getString("city");
                             String country = userData.getString("country");
                             String zipCode = userData.getString("zip");
+                            int blocked = userData.getInt("blocked");
+                            int canceled = userData.getInt("canceled");
+
+                            if(blocked != 0 || canceled != 0) {
+                                Toast.makeText(MainActivity.this, R.string.userNotActive, Toast.LENGTH_LONG).show();
+                                ma.finish();
+                                return;
+                            }
+
                             businessAddress = address;
                             businessAddressCityCountry = zipCode + ", " + city + ", " + country;
 

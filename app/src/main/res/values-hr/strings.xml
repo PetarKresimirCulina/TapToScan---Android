@@ -50,5 +50,7 @@
     <string name="welcome_screen_4_title">Pošaljite narudžbu</string>
     <string name="welcome_screen_4_message">Pričekajte da Vam se narudžba servira i uživajte :)</string>
     <string name="do_not_show_again">Ne prikazuj više</string>
+    <string name="tagNotActive">Ova TapToScan naljepnica nije aktivna.</string>
+    <string name="userNotActive">Ovaj korisnik nije aktivan. Kontaktirajte osoblje.</string>
 
 </resources>
